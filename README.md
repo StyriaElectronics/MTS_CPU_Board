@@ -59,11 +59,16 @@ MTS_CPU_Board/
 
 ## 📃 License
 
-Licensed under the  
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+📢 Commercial Use Available
 
-> You are free to use, modify, and share this project – just credit **StyriaElectronics András Nagy**
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
+This means you are free to use, modify, and share this work **for non-commercial purposes**, as long as proper credit is given.
+
+➡️ **Commercial use is not permitted without a separate license.**  
+If you would like to use this project in a commercial context, please contact me to obtain a commercial license.
+
+📬 Contact: [andras.nagy@styria-electronics.at]
 ---
 
 ## 🤝 Contributing
