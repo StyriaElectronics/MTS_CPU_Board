@@ -1,0 +1,48 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Backup-Ordner ignorieren (aber ZIPs behalten, z. B. für Gerber)
+**/*-backups/
+*-backups
+
+# Temporäre Dateien
+*.000
+*.bak
+*.bck
+*.tmp
+*~
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+__pycache__/
+# auto_saved_files vom alten Eeschema
+\#auto_saved_files#
+
+# Benutzer- und Cache-Dateien
+*.kicad_prl
+*.kicad_mod
+*.kicad_wks
+*.kicad_dru
+*.autosave
+
+# Netlist-Dateien (Eeschema)
+*.net
+
+# Autorouter-Dateien (Pcbnew)
+*.dsn
+*.ses
+
+# Exportierte Stücklisten
+*.xml
+*.csv
+
+# Logs
+*.log
+
+# macOS-Dateien
+.DS_Store

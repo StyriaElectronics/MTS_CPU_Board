@@ -1,0 +1,126 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 27.94)
+		(size 34.29 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "310ab177-ef8f-4bf2-b401-3bc595227d72")
+		(property "Sheetname" "Conn"
+			(at 29.21 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn.kicad_sch"
+			(at 29.21 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" input
+			(at 63.5 38.1 0)
+			(uuid "a7c0ba72-2e2d-491a-addf-1e2cb714f498")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" input
+			(at 63.5 40.64 0)
+			(uuid "3ee5010b-4a0a-4cfe-b7a6-4496b4d1c166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_CLK_STM_CAN" input
+			(at 63.5 45.72 0)
+			(uuid "c7dcf8f2-ccc6-4165-8be0-cd1393f331cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA_STM_CAN" input
+			(at 63.5 48.26 0)
+			(uuid "577668d9-a73e-43ff-a563-d3b68673e2ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_BUS_CLK" input
+			(at 63.5 52.07 0)
+			(uuid "1032b930-d957-4549-adca-4d988a065524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_BUS_SDA" input
+			(at 63.5 54.61 0)
+			(uuid "cf185eb7-b3c1-45cc-b813-b6ee30288449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Triger" input
+			(at 63.5 58.42 0)
+			(uuid "c10b899b-1398-4dea-8884-d682b65feb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MTS_CPU_BOARD"
+				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
