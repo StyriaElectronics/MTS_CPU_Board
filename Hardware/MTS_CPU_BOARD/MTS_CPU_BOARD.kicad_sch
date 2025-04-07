@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 128.27 29.21)
+		(size 40.64 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b5a4b1c-82b5-4954-bec5-351fee8ad66d")
+		(property "Sheetname" "CM4"
+			(at 128.27 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4.kicad_sch"
+			(at 128.27 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MTS_CPU_BOARD"
+				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 27.94)
 		(size 34.29 39.37)
 		(exclude_from_sim no)
@@ -113,6 +155,90 @@
 			(project "MTS_CPU_BOARD"
 				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 29.21)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8057d09c-7ef1-4519-9142-f7ff11592643")
+		(property "Sheetname" "STM32"
+			(at 72.39 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 72.39 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MTS_CPU_BOARD"
+				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 29.21)
+		(size 34.29 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92fed25c-0f91-47ab-bd0f-a6b693a88f8c")
+		(property "Sheetname" "Ethernet"
+			(at 179.07 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet .kicad_sch"
+			(at 179.07 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MTS_CPU_BOARD"
+				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
+					(page "5")
 				)
 			)
 		)

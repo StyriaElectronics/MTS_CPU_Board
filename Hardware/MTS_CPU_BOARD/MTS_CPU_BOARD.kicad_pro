@@ -524,7 +524,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },
@@ -639,6 +639,18 @@
     [
       "310ab177-ef8f-4bf2-b401-3bc595227d72",
       "Conn"
+    ],
+    [
+      "8057d09c-7ef1-4519-9142-f7ff11592643",
+      "STM32"
+    ],
+    [
+      "0b5a4b1c-82b5-4954-bec5-351fee8ad66d",
+      "CM4"
+    ],
+    [
+      "92fed25c-0f91-47ab-bd0f-a6b693a88f8c",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
