@@ -1,0 +1,25 @@
+# KiCad
+**/*-backups/
+*.tmp
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_dru
+*.autosave
+*.kicad_mod
+fp-info-cache
+__pycache__/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+__pycache__/
+
+# macOS / Linux
+.DS_Store
+Thumbs.db
