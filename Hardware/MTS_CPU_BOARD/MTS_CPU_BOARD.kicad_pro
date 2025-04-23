@@ -651,6 +651,10 @@
     [
       "92fed25c-0f91-47ab-bd0f-a6b693a88f8c",
       "Ethernet"
+    ],
+    [
+      "117a589e-2a62-4474-bb18-b2546abf79ce",
+      "Front_panel"
     ]
   ],
   "text_variables": {}
