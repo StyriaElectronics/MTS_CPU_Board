@@ -8530,16 +8530,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 140.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca9e9a4-2552-44a4-8210-98c706bb0a2e")
-	)
-	(wire
-		(pts
 			(xy 300.99 180.34) (xy 295.91 180.34)
 		)
 		(stroke
@@ -8800,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 73.66) (xy 326.39 73.66)
+			(xy 295.91 73.66) (xy 304.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9910,7 +9900,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 71.12) (xy 321.31 71.12)
+			(xy 295.91 71.12) (xy 304.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9998,48 +9988,6 @@
 		)
 		(uuid "ff932521-d4c2-4efd-af09-c24f11957c5b")
 	)
-	(label "USBD_P"
-		(at 300.99 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7b06a4b-e27e-4c5f-852c-8af79976cfda")
-	)
-	(label "USBD_N"
-		(at 300.99 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee2924b0-4518-4155-9e21-fa608279682b")
-	)
-	(global_label "BUSSY LED"
-		(shape input)
-		(at 149.86 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30948d36-7804-4b51-aa39-047dd6582da6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.4631 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USART1_RX"
 		(shape input)
 		(at 149.86 114.3 0)
@@ -10075,28 +10023,6 @@
 		(uuid "44d3151b-904c-4a79-af4b-3d767863b7a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.3464 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Error LED"
-		(shape input)
-		(at 149.86 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4859d5f7-e61e-4929-9b52-baa86a6246fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.0116 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,16 +10109,16 @@
 		)
 		(uuid "54481a20-b1c0-47ea-8cd0-fd5a9985f4d3")
 	)
-	(hierarchical_label "USART2_RX"
+	(hierarchical_label "USBD_P"
 		(shape input)
-		(at 149.86 96.52 0)
+		(at 304.8 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5698228a-8ece-41c6-a413-ff2500c68155")
+		(uuid "5dcb1f36-9389-49e6-bd63-9022a6612649")
 	)
 	(hierarchical_label "I2C_CLK_CM4"
 		(shape input)
@@ -10204,6 +10130,28 @@
 			(justify right)
 		)
 		(uuid "a5ca232b-7939-41a7-801b-889c0f8c8449")
+	)
+	(hierarchical_label "USBD_N"
+		(shape input)
+		(at 304.8 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa12f5f1-ab9f-41fc-b265-9c82e07a9024")
+	)
+	(hierarchical_label "BUSSY_LED"
+		(shape input)
+		(at 149.86 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c488647e-e751-4c26-bcb0-6bc377f7f4a5")
 	)
 	(hierarchical_label "ETH_LEDO"
 		(shape input)
@@ -10226,6 +10174,17 @@
 			(justify right)
 		)
 		(uuid "c9611543-585b-450f-8ca3-b4d14a59076a")
+	)
+	(hierarchical_label "Error_LED"
+		(shape input)
+		(at 149.86 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca9156e5-34cd-48ca-9e74-efcd6aeb80b8")
 	)
 	(hierarchical_label "I2C_SDA_CM4"
 		(shape input)

@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 123.19) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba74418-60a4-4fb4-a630-3006f98ca072")
+	)
+	(wire
+		(pts
 			(xy 237.49 85.09) (xy 220.98 85.09)
 		)
 		(stroke
@@ -47,6 +57,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6994f8-ad74-4251-895d-777769c4dcd4")
+	)
+	(wire
+		(pts
 			(xy 220.98 130.81) (xy 200.66 130.81)
 		)
 		(stroke
@@ -54,6 +74,16 @@
 			(type default)
 		)
 		(uuid "695c5f76-4ff9-4cec-a4be-ea6ea2e65698")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee64d46-87da-4200-9278-79117f9bac1a")
 	)
 	(wire
 		(pts
@@ -94,6 +124,16 @@
 			(type default)
 		)
 		(uuid "b9d87b6d-f517-4d81-8553-4e4cb083c848")
+	)
+	(wire
+		(pts
+			(xy 68.58 48.26) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc21e34f-6148-4552-944a-d525cb30fed5")
 	)
 	(wire
 		(pts
@@ -169,26 +209,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USART2_RX" input
-			(at 161.29 88.9 180)
-			(uuid "dc05e73b-b8df-428e-9cca-236c9e5c0ac1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_TX" input
-			(at 161.29 85.09 180)
-			(uuid "2f008d86-0077-4d8a-b7f5-49334407c55d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C_CLK_CM4" input
 			(at 161.29 58.42 180)
 			(uuid "147bed49-6a8d-4210-8476-45dc6f11a32b")
@@ -210,7 +230,7 @@
 			)
 		)
 		(pin "STM_RESET" input
-			(at 161.29 67.31 180)
+			(at 161.29 97.79 180)
 			(uuid "e9d65331-d1eb-4849-9d2c-029f997c3d12")
 			(effects
 				(font
@@ -289,6 +309,46 @@
 				(justify right)
 			)
 		)
+		(pin "ETH_LEDY" input
+			(at 161.29 68.58 180)
+			(uuid "a0e1603e-3f63-4066-a538-4e04ee2915f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SSD_LED" input
+			(at 161.29 48.26 180)
+			(uuid "26ff1719-41f5-4cc6-bedf-79f7a40e2535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD_N" input
+			(at 161.29 73.66 180)
+			(uuid "53ef462c-c58f-4db2-8e98-1b101159f509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD_P" input
+			(at 161.29 76.2 180)
+			(uuid "b76f4b18-e82b-48ab-8b9d-2c0daa1a8a89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "MTS_CPU_BOARD"
 				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
@@ -351,6 +411,16 @@
 				(justify right)
 			)
 		)
+		(pin "SSD_LED" input
+			(at 68.58 48.26 0)
+			(uuid "4f8a1269-3381-4289-9f32-a8fadc1c4ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "MTS_CPU_BOARD"
 				(path "/b6a2ab1c-6000-4ee5-8a59-5a2d20d16b67"
@@ -406,26 +476,6 @@
 		(pin "CAN_L" input
 			(at 237.49 85.09 180)
 			(uuid "3ee5010b-4a0a-4cfe-b7a6-4496b4d1c166")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C2_CLK_STM_CAN" input
-			(at 237.49 90.17 180)
-			(uuid "c7dcf8f2-ccc6-4165-8be0-cd1393f331cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C2_SDA_STM_CAN" input
-			(at 237.49 92.71 180)
-			(uuid "577668d9-a73e-43ff-a563-d3b68673e2ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,43 +636,53 @@
 			)
 		)
 		(pin "I2C_BUS_CLK" input
-			(at 200.66 147.32 0)
+			(at 161.29 139.7 180)
 			(uuid "9d8b6caf-f4a5-4683-9e95-a2236926a101")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "I2C_BUS_SDA" input
-			(at 200.66 149.86 0)
+			(at 161.29 142.24 180)
 			(uuid "dc4938a4-5cc4-4a91-9895-413ffaeda456")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "USART1_RX_STM_CAN" input
-			(at 200.66 152.4 0)
-			(uuid "f887ce5c-19c7-4b5a-91e7-46c0fe51f9f8")
+		(pin "USART1_RX_STM" input
+			(at 161.29 127 180)
+			(uuid "a597f72c-8ea8-43a6-bd26-4197a9b0d00b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "USART1_TX_STM_CAN" input
-			(at 200.66 154.94 0)
-			(uuid "b6071a35-8512-4cb7-881f-a7ca3b599411")
+		(pin "USART1_TX_STM" input
+			(at 161.29 129.54 180)
+			(uuid "074677a3-49c4-4832-9691-2bf1e9511a05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 161.29 123.19 180)
+			(uuid "fc2cc958-4d9b-4f27-ac86-5e7c6604ddc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
