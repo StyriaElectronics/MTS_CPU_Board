@@ -39,7 +39,7 @@ MTS_CPU_Board/
 ---
 
 ## 📷 Preview
-Todo
+**Todo**
 > Add preview images to `images/preview.png`  
 > and insert them like this:
 
@@ -50,8 +50,6 @@ Todo
 ---
 
 ## 🛠 Usage Ideas
-
-🛠 Usage Ideas
 
 - Slot management for plug-in cards
 - Monitoring voltages / temperatures
@@ -67,19 +65,26 @@ Todo
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-This means you are free to use, modify, and share this work **for non-commercial purposes**, as long as proper credit is given.
+You may freely use, modify, and distribute this work for non-commercial purposes only, provided appropriate credit is given to the author.
 
-➡️ **Commercial use is not permitted without a separate license.**  
-If you would like to use this project in a commercial context, please contact me to obtain a commercial license.
+➡️ Commercial use, including but not limited to:
+  -	Integration into commercial products or services
+	-	Redistribution or sale of derived products or components
+	-	Commercial consulting or deployment
+
+**is strictly prohibited without explicit written permission**
+
+If you intend to use this project commercially, please contact me directly to negotiate a suitable license agreement.
 
 📬 Contact: [andras.nagy@styria-electronics.at]
 ---
 
+⚠️ **Disclaimer:**
+This project is provided "as is" without warranty of any kind, either expressed or implied, including but not limited to fitness for a particular purpose, functionality, accuracy, or non-infringement. In no event shall the author(s) be liable for any claim, damages, or other liability arising from, out of, or in connection with the use or other dealings in this project.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Fork this repo and feel free to open pull requests or issues.
-
----
 
 ## 🚀 Status
 
