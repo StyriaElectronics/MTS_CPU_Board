@@ -15,10 +15,11 @@ It serves as the master board for communication and control of all plug-in modul
 ## 📦 Features
 
 - 🧠 Raspberry Pi CM4 for computing and control
-- 🔌 Backplane interface: UART, SPI, I²C, GPIO, CAN (optional)
+- 🔌 Backplane interface: UART, SPI, I²C, GPIO, CAN
+- 🚀 EtherCAT interface for high-speed real-time data exchange
+- 📡 Automatic plug-in module registration and configuration via CAN bus
 - ⚡ Power input with regulation and monitoring
-- 🌐 Optional Web UI (Flask or Node.js based)
-- 📷 Camera / display / USB expandability
+- 🌐 Optional Web UI (Flask based)
 
 ---
 
@@ -38,7 +39,7 @@ MTS_CPU_Board/
 ---
 
 ## 📷 Preview
-
+Todo
 > Add preview images to `images/preview.png`  
 > and insert them like this:
 
@@ -50,10 +51,13 @@ MTS_CPU_Board/
 
 ## 🛠 Usage Ideas
 
+🛠 Usage Ideas
+
 - Slot management for plug-in cards
 - Monitoring voltages / temperatures
 - Logging & remote access via web
 - UART/CAN message routing
+- High-speed real-time data logging and control via EtherCAT
 
 ---
 
